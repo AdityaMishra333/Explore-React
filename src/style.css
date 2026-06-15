@@ -1,6 +1,12 @@
 body{
     background-color: black;
     font-family: sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .mainbox{
@@ -8,7 +14,10 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
+    border: 2px solid yellow;
+    border-radius: 25px;
+    margin: 25px 0;
+    padding: 25px;
 }
 
 .mainbox2{
@@ -16,9 +25,10 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1.5px solid yellow;
+    border: 2px solid yellow;
+    border-radius: 25px;
+    margin: 25px 0;
     padding: 25px;
-    border-radius: 15px;
 }
 
 h1{
@@ -48,5 +58,9 @@ button{
     padding: 10px 25px;
     border-radius: 10px;
     margin: 5px 10px;
+    color: yellow;
+}
+
+h2{
     color: yellow;
 }
